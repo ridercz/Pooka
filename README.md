@@ -16,6 +16,11 @@ You won't be able to do that when SWAT team burst trough your doors. Trust me, I
 
 Pooka is actually quite simple software that runs in background of your Windows computer and periodically checks if certain file on removable storage device still exists. If the device was removed, Pooka will perform the configured action. It can lock your computer, shutdown it or run a custom command.
 
+**Download the latest release from [Releases](https://github.com/ridercz/Pooka/releases/latest) page.** There are two binaries available:
+
+* `pooka.exe` requires .NET 7 runtime to be installed and is smaller.
+* `pooka-standalone.exe` is self-contained and does not require .NET runtime, but is larger.
+
 ## Hardware
 
 You'll need:
