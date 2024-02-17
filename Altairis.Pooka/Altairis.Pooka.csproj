@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<OutputType>WinExe</OutputType>
-		<TargetFramework>net7.0-windows</TargetFramework>
+		<TargetFramework>net8.0-windows</TargetFramework>
 		<Nullable>enable</Nullable>
 		<UseWindowsForms>true</UseWindowsForms>
 		<ImplicitUsings>enable</ImplicitUsings>
@@ -10,7 +10,7 @@
 		<ApplicationIcon>pooka-icon-green.ico</ApplicationIcon>
 		<AssemblyTitle>Pooka</AssemblyTitle>
 		<Product>Pooka</Product>
-		<Copyright>(c) Altairis, 2023</Copyright>
+		<Copyright>(c) Altairis, 2023-2024</Copyright>
 		<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
 	</PropertyGroup>
 
@@ -31,7 +31,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Windows.Compatibility" Version="7.0.4" />
+		<PackageReference Include="Microsoft.Windows.Compatibility" Version="8.0.2" />
 	</ItemGroup>
 
 	<ItemGroup>
