@@ -12,6 +12,10 @@
 		<Product>Pooka</Product>
 		<Copyright>(c) Altairis, 2023-2024</Copyright>
 		<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+		<Version>1.0.1</Version>
+		<AssemblyVersion>1.0.1</AssemblyVersion>
+		<FileVersion>1.0.1</FileVersion>
+		<ApplicationHighDpiMode>DpiUnaware</ApplicationHighDpiMode>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
